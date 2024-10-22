@@ -76,6 +76,60 @@ $y = 4.5;         # Type Float
         $x =null;                  // null
      ?> 
 
+         # Operators 
+
+# Arithmetic operaters
+<?php
+$x = 10;
+$y = 3;
+
+// Addition
+echo $x + $y;  // Output: 13
+
+// Subtraction
+echo $x - $y;  // Output: 7
+
+// Multiplication
+echo $x * $y;  // Output: 30
+
+// Division
+echo $x / $y;  // Output: 3.3333
+
+// Modulus
+echo $x % $y;  // Output: 1
+
+// Exponentiation
+echo $x ** $y; // Output: 1000
+?>
+
+   # Assignment Operaters
+
+<?php
+$x = 5;
+
+// Add and assign
+$x += 3;  // Equivalent to $x = $x + 3
+echo $x;  // Output: 8
+
+// Subtract and assign
+$x -= 2;  // Equivalent to $x = $x - 2
+echo $x;  // Output: 6
+
+// Multiply and assign
+$x *= 2;  // Equivalent to $x = $x * 2
+echo $x;  // Output: 12
+
+// Divide and assign
+$x /= 3;  // Equivalent to $x = $x / 3
+echo $x;  // Output: 4
+
+// Modulus and assign
+$x %= 3;  // Equivalent to $x = $x % 3
+echo $x;  // Output: 1
+?>
+
+
+
 
 
 
